@@ -14,6 +14,7 @@ about:
       href: https://github.com/cilantro-licorice
 listing:
   contents: posts
+  template: custom-listing.ejs
   type: default
   sort: "date desc"
   max-items: 5
