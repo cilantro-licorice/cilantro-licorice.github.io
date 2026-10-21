@@ -42,7 +42,7 @@
 /* 6. DESCRIPTION: Justified text */
 .quarto-listing-default .listing-description {
   display: block !important;
-  font-size: 1rem !important;
+  font-size: 0.75rem !important;
   text-align: justify !important;
   margin-bottom: 0 !important;
 }
