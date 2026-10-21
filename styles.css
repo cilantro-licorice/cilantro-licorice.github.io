@@ -21,7 +21,7 @@
 .quarto-listing-default .listing-title a,
 .quarto-listing-default .listing-description,
 .quarto-listing-default .listing-date {
-  font-family: "Atkinson Hyperlegible", sans-serif !important;
+  font-family: "Atkinson Hyperlegible" !important;
 }
 
 /* 5. Title Styling */
