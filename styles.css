@@ -15,6 +15,7 @@
 }
 
 .quarto-listing-default .listing-title {
+  font-family: inherit !important;
   font-size: 1.05rem !important;    /* Makes the font size noticeably smaller (default is ~1.5rem) */
   font-weight: 500;                 /* Slimmer/narrower text weight (400 is normal, 700 is bold) */
   letter-spacing: -0.02em;          /* Tightens horizontal letter spacing */
