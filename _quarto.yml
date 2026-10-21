@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Matija Pušnik"
+  navbar: false
+    #left:
+    #  - href: index.qmd
+    #    text: "Home"
+    #  - href: posts/first-post.qmd
+    #    text: "Writing"
+    #right:
+    #  - icon: github
+    #    href: https://github.com/cilantro-licorice
+    #  - icon: linkedin
+    #    href: https://www.linkedin.com/in/matija-pušnik
+
+format:
+  html:
+    theme: litera
+    code-fold: true
+    toc: false

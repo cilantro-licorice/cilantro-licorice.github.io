@@ -1,0 +1,17 @@
+---
+title: Matija Pušnik
+about:
+  template: jolla
+  image: red-panda.webp
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://linkedin.com/in/matija-pušnik
+    - text: '<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" width="1.15em" height="1.15em" fill="currentColor" style="vertical-align: -0.2em; margin-right: 4px;"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.141H6.47V7.416zm3.568 0h3.912c2.934 0 4.75 1.797 4.75 4.981 0 3.203-1.816 5.16-4.75 5.16h-3.912V7.416zm1.444 1.256v7.628h2.359c2.119 0 3.391-1.125 3.391-3.813 0-2.703-1.272-3.815-3.391-3.815h-2.359z"/></svg> ORCID' 
+      href: https://orcid.org/0009-0001-5423-7754
+    - icon: github
+      text: Github
+      href: https://github.com/cilantro-licorice
+---
+
+Hi, my name is Matija Pušnik. I am a philosopher and debate educator. :)
