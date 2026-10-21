@@ -33,7 +33,7 @@
 /* 5. TITLE: Smaller font size & bold */
 .quarto-listing-default .listing-title,
 .quarto-listing-default .listing-title a {
-  font-size: 1.15rem !important; /* Adjust if you want it smaller/larger */
+  font-size: 1rem !important; /* Adjust if you want it smaller/larger */
   font-weight: 700 !important;
   display: block !important;
   margin-bottom: 0.3rem !important;
