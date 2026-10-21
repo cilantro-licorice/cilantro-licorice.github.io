@@ -17,7 +17,7 @@ listing:
   type: default
   sort: "date desc"
   max-items: 5
-  fields: [date, title, description]
+  fields: [title, description, date]
 ---
 
 Hi, my name is Matija Pušnik. I am a philosopher and debate educator. :)

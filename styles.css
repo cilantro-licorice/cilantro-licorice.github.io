@@ -21,3 +21,28 @@
   max-width: 85%;                   /* Makes the title container narrower across the page */
   line-height: 1.25;                /* Compact line height */
 }
+
+/* Reorder listing elements vertically */
+.quarto-listing-default .quarto-post {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Position 1: Title */
+.quarto-listing-default .listing-title {
+  order: 1;
+  margin-bottom: 0.25rem;
+}
+
+/* Position 2: Description */
+.quarto-listing-default .listing-description {
+  order: 2;
+  margin-bottom: 0.5rem;
+}
+
+/* Position 3: Date */
+.quarto-listing-default .listing-date {
+  order: 3;
+  font-size: 0.85rem;
+  color: #718096;
+}
