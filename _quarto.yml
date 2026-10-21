@@ -18,5 +18,6 @@ website:
 format:
   html:
     theme: litera
+    css: styles.css
     code-fold: true
     toc: false
