@@ -36,7 +36,7 @@
 /* 6. Description Styling (with semicolon!) */
 .quarto-listing-default .listing-description {
   display: block !important;
-  margin-bottom: 0.35rem !important;
+  margin-bottom: 0.05rem !important;
   text-align: justify !important;
 }
 
