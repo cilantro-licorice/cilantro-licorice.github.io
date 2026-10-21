@@ -1,4 +1,4 @@
-/* 1. Kill Quarto's CSS grid and force a clean vertical block layout */
+;/* 1. Kill Quarto's CSS grid and force a clean vertical block layout */
 .quarto-listing-default .quarto-post {
   display: block !important;
 }
@@ -30,7 +30,8 @@
 
 .quarto-listing-default .listing-description {
   display: block !important;
-  margin-bottom: 0.35rem !important;
+  margin-bottom: 0.35rem !important
+  text-align: justify;
 }
 
 .quarto-listing-default .listing-date {
