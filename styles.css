@@ -59,3 +59,40 @@
   line-height: 1.5;
   color: #374151;
 }
+
+/* Card Container */
+.blog-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* 1. Title: Bold, inherits bio font */
+.blog-title {
+  font-family: inherit !important;
+  font-weight: 700 !important;
+  font-size: 1.2rem !important;
+  margin: 0 0 0.35rem 0 !important;
+}
+
+.blog-title a {
+  text-decoration: none;
+  color: #212529;
+}
+
+/* 2. Description: Inherits bio font */
+.blog-desc {
+  font-family: inherit !important;
+  font-size: 0.95rem !important;
+  color: #374151 !important;
+  margin: 0 0 0.25rem 0 !important;  /* Very small gap before date */
+}
+
+/* 3. Date: Grayish and right below description */
+.blog-date {
+  font-family: inherit !important;
+  font-size: 0.825rem !important;
+  color: #888888 !important;
+  display: block;
+}
