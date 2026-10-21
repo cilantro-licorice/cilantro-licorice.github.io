@@ -25,6 +25,7 @@
 
 /* Fix alignment for post listing card */
 .quarto-listing-default .quarto-post {
+  font-family: inherit !important;
   text-align: left !important;            /* Force left alignment for all post content */
   display: flex !important;
   flex-direction: column !important;
