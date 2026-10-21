@@ -1,27 +1,23 @@
-/* Put an outline box around each post item */
+/* Force single vertical stack (Title -> Desc -> Date) */
 .quarto-listing-default .quarto-post {
-  border: 1px solid #e2e8f0;      /* The outline border */
-  border-radius: 8px;             /* Rounded corners */
-  padding: 1.25rem;               /* Inside spacing */
-  margin-bottom: 1rem;            /* Space between cards */
-  background-color: #ffffff;      /* Card background */
-  transition: all 0.2s ease-in-out;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
-/* 1. Title bold & matches about font */
+/* Match body/about text font & make title bold */
 .quarto-listing-default .listing-title,
-.quarto-listing-default .listing-title a {
-  font-family: inherit !important;
-  font-weight: bold !important;
-}
-
-/* 2. Description matches about font */
+.quarto-listing-default .listing-title a,
 .quarto-listing-default .listing-description {
-  font-family: inherit !important;
+  font-family: var(--bs-body-font-family) !important;
 }
 
-/* 3. Date grayish and pulled closer to description */
+.quarto-listing-default .listing-title {
+  font-weight: 700 !important;
+}
+
+/* Grayish date tucked close to description */
 .quarto-listing-default .listing-date {
+  font-family: var(--bs-body-font-family) !important;
   color: #6c757d !important;
   margin-top: -0.5rem !important;
 }
