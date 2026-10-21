@@ -6,13 +6,7 @@
 .quarto-listing-default .quarto-post .body {
     order: 1 !important;
 }
-.quarto-listing-default .quarto-post .body,
 .quarto-listing-default .quarto-post .metadata {
-  display: block !important;
-  width: 100% !important;
-  float: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
   order: 2 !important;
 }
 
