@@ -1,0 +1,15 @@
+/* Put an outline box around each post item */
+.quarto-listing-default .quarto-post {
+  border: 1px solid #e2e8f0;      /* The outline border */
+  border-radius: 8px;             /* Rounded corners */
+  padding: 1.25rem;               /* Inside spacing */
+  margin-bottom: 1rem;            /* Space between cards */
+  background-color: #ffffff;      /* Card background */
+  transition: all 0.2s ease-in-out;
+}
+
+/* Add a subtle outline highlight when hovering */
+.quarto-listing-default .quarto-post:hover {
+  border-color: #3182ce;          /* Outline changes color on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft drop shadow */
+}
