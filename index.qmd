@@ -20,4 +20,4 @@ listing:
   fields: [title, description, date]
 ---
 
-Hi, my name is Matija Pušnik. I am a philosopher and debate educator. :)
+Hi, my name is Matija Pušnik. I am a philosopher and debate educator. :) Lorem ipsum, etc. etc. Tralala, testing testing, whooo, leroooy jenkins
