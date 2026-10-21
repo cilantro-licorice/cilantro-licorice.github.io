@@ -17,7 +17,6 @@ listing:
   type: default
   sort: "date desc"
   max-items: 5
-  page-size: 5i
   fields: [date, title, description]
 ---
 
