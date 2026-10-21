@@ -1,3 +1,11 @@
+#listing-listing,
+.quarto-listing,
+.quarto-listing-default {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+
 /* 1. Set Flexbox layout so 'order' works */
 .quarto-listing-default .quarto-post {
   display: flex !important;
