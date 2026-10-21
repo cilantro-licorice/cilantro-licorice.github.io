@@ -1,22 +1,28 @@
-/* 1. Force post container into a vertical flex column so 'order' works */
+/* 1. Set Flexbox layout so 'order' works */
 .quarto-listing-default .quarto-post {
   display: flex !important;
   flex-direction: column !important;
+  margin-bottom: 2rem !important; /* Space between different posts */
+  padding-bottom: 0 !important;
 }
 
-/* 2. Force Body to be first */
+/* 2. Remove bottom margins from the text container */
 .quarto-listing-default .quarto-post .body {
   order: 1 !important;
   width: 100% !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
-/* 3. Force Metadata (Date) to be second (BOTTOM) */
+/* 3. Pull date immediately underneath the description */
 .quarto-listing-default .quarto-post .metadata {
   order: 2 !important;
   width: 100% !important;
+  margin-top: 0.25rem !important; /* Tight gap above date */
+  padding-top: 0 !important;
 }
 
-/* 4. Force Font Family (with semicolon!) */
+/* 4. Font Family Override */
 .quarto-listing-default .listing-title,
 .quarto-listing-default .listing-title a,
 .quarto-listing-default .listing-description,
@@ -24,27 +30,28 @@
   font-family: "Atkinson Hyperlegible" !important;
 }
 
-/* 5. Title Styling */
+/* 5. TITLE: Smaller font size & bold */
 .quarto-listing-default .listing-title,
 .quarto-listing-default .listing-title a {
+  font-size: 1.15rem !important; /* Adjust if you want it smaller/larger */
   font-weight: 700 !important;
-  text-align: left !important;
   display: block !important;
-  margin-bottom: 0.35rem !important;
+  margin-bottom: 0.3rem !important;
 }
 
-/* 6. Description Styling (with semicolon!) */
+/* 6. DESCRIPTION: Justified text */
 .quarto-listing-default .listing-description {
   display: block !important;
-  margin-bottom: 0.05rem !important;
+  font-size: 1rem !important;
   text-align: justify !important;
+  margin-bottom: 0 !important;
 }
 
-/* 7. Date Styling */
+/* 7. DATE: Small, grayish, aligned left right under description */
 .quarto-listing-default .listing-date {
   display: block !important;
   color: #6c757d !important;
-  font-size: 0.85rem !important;
-  margin-top: 0 !important;
+  font-size: 0.8rem !important;
   text-align: left !important;
+  margin-top: 0 !important;
 }
