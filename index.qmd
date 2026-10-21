@@ -14,7 +14,7 @@ about:
       href: https://github.com/cilantro-licorice
 listing:
   contents: posts
-  type: table
+  type: default
   sort: "date desc"
   max-items: 5
   fields: [date, title, description]
