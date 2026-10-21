@@ -18,7 +18,7 @@
 .quarto-listing-default .quarto-post .metadata {
   order: 2 !important;
   width: 100% !important;
-  margin-top: 0.25rem !important; /* Tight gap above date */
+  margin-top: 0.1rem !important; /* Tight gap above date */
   padding-top: 0 !important;
 }
 
@@ -45,6 +45,7 @@
   font-size: 0.8rem !important;
   text-align: justify !important;
   margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 /* 7. DATE: Small, grayish, aligned left right under description */
