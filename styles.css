@@ -17,7 +17,7 @@
 .quarto-listing-default .listing-title a,
 .quarto-listing-default .listing-description,
 .quarto-listing-default .listing-date {
-  font-family: var(--bs-body-font-family) !important;
+  font-family: "Atkinson Hyperlegible"
 }
 
 /* 3. Styling & Spacing: Bold title, normal description, grayish close date */
