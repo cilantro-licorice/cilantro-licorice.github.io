@@ -10,6 +10,7 @@
   float: none !important;
   margin: 0 !important;
   padding: 0 !important;
+  order: 2 !important;
 }
 
 /* 2. Force Title, Description, and Date to use the exact body font (bypassing heading fonts) */
