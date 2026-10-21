@@ -13,3 +13,11 @@
   border-color: #3182ce;          /* Outline changes color on hover */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft drop shadow */
 }
+
+.quarto-listing-default .listing-title {
+  font-size: 1.05rem !important;    /* Makes the font size noticeably smaller (default is ~1.5rem) */
+  font-weight: 500;                 /* Slimmer/narrower text weight (400 is normal, 700 is bold) */
+  letter-spacing: -0.02em;          /* Tightens horizontal letter spacing */
+  max-width: 85%;                   /* Makes the title container narrower across the page */
+  line-height: 1.25;                /* Compact line height */
+}
