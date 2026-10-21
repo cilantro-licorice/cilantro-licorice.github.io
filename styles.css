@@ -8,91 +8,20 @@
   transition: all 0.2s ease-in-out;
 }
 
-/* Add a subtle outline highlight when hovering */
-.quarto-listing-default .quarto-post:hover {
-  border-color: #3182ce;          /* Outline changes color on hover */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft drop shadow */
-}
-
-.quarto-listing-default .listing-title {
+/* 1. Title bold & matches about font */
+.quarto-listing-default .listing-title,
+.quarto-listing-default .listing-title a {
   font-family: inherit !important;
-  font-size: 1.05rem !important;    /* Makes the font size noticeably smaller (default is ~1.5rem) */
-  font-weight: 500;                 /* Slimmer/narrower text weight (400 is normal, 700 is bold) */
-  letter-spacing: -0.02em;          /* Tightens horizontal letter spacing */
-  max-width: 85%;                   /* Makes the title container narrower across the page */
-  line-height: 1.25;                /* Compact line height */
+  font-weight: bold !important;
 }
 
-/* Fix alignment for post listing card */
-.quarto-listing-default .quarto-post {
-  font-family: inherit !important;
-  text-align: left !important;            /* Force left alignment for all post content */
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: flex-start !important;    /* Prevents flex items from centering */
-  padding: 1.25rem;
-}
-
-/* Title: Left-aligned, bold, compact */
-.quarto-listing-default .listing-title {
-  order: 1;
-  text-align: left !important;
-  font-size: 1.15rem !important;
-  font-weight: 600 !important;
-  margin-bottom: 0.25rem !important;
-}
-
-/* Date: Tucked neatly under title in small muted text */
-.quarto-listing-default .listing-date {
-  order: 2;
-  text-align: left !important;
-  font-size: 0.825rem !important;
-  color: #6b7280 !important;             /* Muted grey */
-  margin-bottom: 0.75rem !important;
-}
-
-/* Description: Justified text body */
+/* 2. Description matches about font */
 .quarto-listing-default .listing-description {
-  order: 3;
-  text-align: justify !important;         /* Justifies description text */
-  font-size: 0.95rem;
-  line-height: 1.5;
-  color: #374151;
-}
-
-/* Card Container */
-.blog-item {
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
-  padding: 1.25rem;
-  margin-bottom: 1rem;
-}
-
-/* 1. Title: Bold, inherits bio font */
-.blog-title {
   font-family: inherit !important;
-  font-weight: 700 !important;
-  font-size: 1.2rem !important;
-  margin: 0 0 0.35rem 0 !important;
 }
 
-.blog-title a {
-  text-decoration: none;
-  color: #212529;
-}
-
-/* 2. Description: Inherits bio font */
-.blog-desc {
-  font-family: inherit !important;
-  font-size: 0.95rem !important;
-  color: #374151 !important;
-  margin: 0 0 0.25rem 0 !important;  /* Very small gap before date */
-}
-
-/* 3. Date: Grayish and right below description */
-.blog-date {
-  font-family: inherit !important;
-  font-size: 0.825rem !important;
-  color: #888888 !important;
-  display: block;
+/* 3. Date grayish and pulled closer to description */
+.quarto-listing-default .listing-date {
+  color: #6c757d !important;
+  margin-top: -0.5rem !important;
 }
