@@ -1,19 +1,19 @@
 <div class="custom-blog-list">
   <% for (const item of items) { %>
     <div class="blog-item">
-      <!-- 1. Title (Bold, matches body font) -->
+      <!-- 1. Title -->
       <h3 class="blog-title">
-        <a href="<%= item.path %>"><%= item.title %></a>
+        <a href="<%- item.path %>"><%- item.title %></a>
       </h3>
 
-      <!-- 2. Description (Same body font) -->
+      <!-- 2. Description (Using <%- instead of <%=) -->
       <% if (item.description) { %>
-        <p class="blog-desc"><%= item.description %></p>
+        <p class="blog-desc"><%- item.description %></p>
       <% } %>
 
-      <!-- 3. Date (Grayish & close to description) -->
+      <!-- 3. Date -->
       <% if (item.date) { %>
-        <span class="blog-date"><%= item.date %></span>
+        <span class="blog-date"><%- item.date %></span>
       <% } %>
     </div>
   <% } %>
