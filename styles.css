@@ -38,6 +38,7 @@
 .quarto-listing-default .listing-title a {
   font-size: 1rem !important; /* Adjust if you want it smaller/larger */
   font-weight: 700 !important;
+  text-align: left !important;
   display: block !important;
   margin-bottom: 0.3rem !important;
 }
