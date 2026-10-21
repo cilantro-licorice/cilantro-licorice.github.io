@@ -22,27 +22,38 @@
   line-height: 1.25;                /* Compact line height */
 }
 
-/* Reorder listing elements vertically */
+/* Fix alignment for post listing card */
 .quarto-listing-default .quarto-post {
-  display: flex;
-  flex-direction: column;
+  text-align: left !important;            /* Force left alignment for all post content */
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;    /* Prevents flex items from centering */
+  padding: 1.25rem;
 }
 
-/* Position 1: Title */
+/* Title: Left-aligned, bold, compact */
 .quarto-listing-default .listing-title {
   order: 1;
-  margin-bottom: 0.25rem;
+  text-align: left !important;
+  font-size: 1.15rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.25rem !important;
 }
 
-/* Position 2: Description */
-.quarto-listing-default .listing-description {
-  order: 2;
-  margin-bottom: 0.5rem;
-}
-
-/* Position 3: Date */
+/* Date: Tucked neatly under title in small muted text */
 .quarto-listing-default .listing-date {
+  order: 2;
+  text-align: left !important;
+  font-size: 0.825rem !important;
+  color: #6b7280 !important;             /* Muted grey */
+  margin-bottom: 0.75rem !important;
+}
+
+/* Description: Justified text body */
+.quarto-listing-default .listing-description {
   order: 3;
-  font-size: 0.85rem;
-  color: #718096;
+  text-align: justify !important;         /* Justifies description text */
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #374151;
 }
