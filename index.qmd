@@ -12,6 +12,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/cilantro-licorice
+    - icon: substack
+      text: Substack
+      href: lalala
 #listing:
 #  contents: posts
 #  type: default
