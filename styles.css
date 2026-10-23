@@ -85,11 +85,6 @@
     cursor: default !important;
 }
 
-.about-entity .about-image,
-.about-entity img {
-  border-radius: 16px !important;
-  object-fit: cover !important;
-}
 .about-image,
 img.about-image,
 .rounded-circle {
