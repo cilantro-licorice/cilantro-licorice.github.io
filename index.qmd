@@ -17,6 +17,9 @@ about:
       href: lalala
     - icon: rss
       text: RSS feed
+    - icon: envelope-at-fill
+      text: Email
+      href: "javascript:navigator.clipboard.writeText('tvoj.email@ustanova.si');alert('Copied!');"
 #listing:
 #  contents: posts
 #  type: default
