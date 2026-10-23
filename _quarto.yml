@@ -5,10 +5,10 @@ website:
   title: "Matija Pušnik"
   navbar: true
         left:
-        - href: index.qmd
-          text: "Home"
-        - href: blog.qmd
-          text: "Posts"
+            - href: index.qmd
+              text: "Home"
+            - href: blog.qmd
+              text: "Posts"
     #right:
     #  - icon: github
     #    href: https://github.com/cilantro-licorice
