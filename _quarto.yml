@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Matija Pušnik"
+  title: false
   navbar:
     left:
       - href: index.qmd
