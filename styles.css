@@ -79,7 +79,7 @@
 
 .navbar-brand {
     font-size: var(--bs-nav-link-font-size)  !important;
-    font-weight: 400 !important;
+    font-weight: 700 !important;
     color: var(--bs-navbar-color) !important;
     pointer-events: none !important;
     cursor: default !important;
