@@ -19,7 +19,7 @@ about:
       text: RSS feed
     - icon: envelope-at-fill
       text: Email
-      href: "javascript:navigator.clipboard.writeText('tvoj.email@ustanova.si');alert('Copied!');"
+      href: "javascript:navigator.clipboard.writeText('tvoj.email@ustanova.si'); let el = document.querySelector('a[href*=\"javascript:navigator.clipboard\"]'); if(el){ const orig = el.innerText; el.innerText = 'Copied!'; setTimeout(() => el.innerText = orig, 1500); }"
 #listing:
 #  contents: posts
 #  type: default
