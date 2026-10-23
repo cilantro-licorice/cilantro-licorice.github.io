@@ -1,2 +1,41 @@
-# s
+---
+title: "Kicking off Doctoral Research in Education"
+author: "Matija Pušnik"
+date: 2026-10-21
+categories: [PhD, Education, Python]
+---
+
+## Introduction
+
+As Head of Education at IDEA and a starting PhD researcher, I am interested in combining empirical learning methodologies with computational analysis.
+
+## Executable Python Analysis
+
+Quarto allows running Python scripts inline. Here is a quick data visualization:
+
+```python
+import matplotlib.pyplot as plt
+
+# Quick sample plot
+weeks = [1, 2, 3, 4, 5]
+engagement = [95, 88, 84, 82, 80]
+
+plt.style.use('seaborn-v0_8-whitegrid') if 'seaborn-v0_8-whitegrid' in plt.style.available else None
+plt.plot(weeks, engagement, marker='o', color='#2b5c8f')
+plt.title('Student Engagement Over Time')
+plt.xlabel('Week')
+plt.ylabel('Active %')
+plt.show()
+```
+
+## Mathematical Formalism
+
+We can also include standard inline math equations such as $\sigma^2 = \frac{1}{N} \sum (x_i - \mu)^2$ without any LaTeX document wrapper or compilation boilerplate!
+
+
+Tes..t
+Test!!!
+Leooo
+Leee1
+
 
