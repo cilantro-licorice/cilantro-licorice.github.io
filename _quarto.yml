@@ -4,9 +4,7 @@ project:
 website:
   title: "Matija Pušnik"
   navbar:
-    title: false
     left:
-      - text: "**Matija Pušnik**"
       - href: index.qmd
         text: "About me"
       - href: blog.qmd
