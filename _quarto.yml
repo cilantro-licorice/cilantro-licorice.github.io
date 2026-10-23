@@ -9,7 +9,7 @@ navbar: true
  - href: index.qmd
    text: "Home"
  - href: blog.qmd
- text: "Posts"
+   text: "Posts"
     #right:
     #  - icon: github
     #    href: https://github.com/cilantro-licorice
