@@ -6,8 +6,9 @@ website:
   navbar:
     title: false
     left:
+      - text: "Matija Pušnik"
       - href: index.qmd
-        text: "About"
+        text: "About me"
       - href: blog.qmd
         text: "Posts"
     #right:
