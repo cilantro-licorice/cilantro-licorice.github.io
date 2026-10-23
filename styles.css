@@ -90,3 +90,8 @@
   border-radius: 16px !important;
   object-fit: cover !important;
 }
+.about-image,
+img.about-image,
+.rounded-circle {
+  border-radius: 16px !important;
+}
