@@ -81,6 +81,6 @@
     font-size: var(--bs-nav-link-font-size)  !important;
     font-weight: 400 !important;
     color: var(--bs-navbar-color) !important;
-    pointer-event: none !important;
+    pointer-events: none !important;
     cursor: default !important;
 }
