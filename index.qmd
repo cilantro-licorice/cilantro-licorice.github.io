@@ -15,6 +15,8 @@ about:
     - icon: substack
       text: Substack
       href: lalala
+    - icon: rss
+      text: RSS feed
 #listing:
 #  contents: posts
 #  type: default
