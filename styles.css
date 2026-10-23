@@ -76,3 +76,9 @@
   text-align: left !important;
   margin-top: 0 !important;
 }
+
+.navbar-brand {
+    font-size: 0.95rem !important;
+    font-weight: 400 !important;
+    color: var(--bs-navbar-color) !important;
+}
