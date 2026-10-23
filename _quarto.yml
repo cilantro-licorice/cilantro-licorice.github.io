@@ -3,7 +3,8 @@ project:
 
 website:
   title: "Matija Pušnik"
-  navbar: true
+
+navbar: true
     left:
       - href: index.qmd
         text: "Home"
