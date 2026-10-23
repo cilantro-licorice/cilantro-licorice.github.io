@@ -2,7 +2,7 @@
 title: Matija Pušnik
 about:
   template: jolla
-  image: portrait kopija.jpg
+  image: portrait.jpg
   links:
     - icon: linkedin
       text: Linkedin
