@@ -3,12 +3,12 @@ project:
 
 website:
   title: "Matija Pušnik"
-  navbar: false
-    #left:
-    #  - href: index.qmd
-    #    text: "Home"
-    #  - href: posts/first-post.qmd
-    #    text: "Writing"
+  navbar: true
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: blog.qmd
+        text: "Posts"
     #right:
     #  - icon: github
     #    href: https://github.com/cilantro-licorice
