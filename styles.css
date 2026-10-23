@@ -78,7 +78,7 @@
 }
 
 .navbar-brand {
-    font-size: 3 rem  !important;
+    font-size: var(--bs-nav-link-font-size)  !important;
     font-weight: 400 !important;
     color: var(--bs-navbar-color) !important;
 }
