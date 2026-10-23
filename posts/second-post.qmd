@@ -2,7 +2,7 @@
 title: "Kicking off Doctoral Research in Education"
 author: "Matija Pušnik"
 date: 2026-10-21
-categories: [PhD, Education, Python]
+categories: [Education, Python]
 ---
 
 ## Introduction
