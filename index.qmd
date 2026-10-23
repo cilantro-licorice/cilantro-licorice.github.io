@@ -12,12 +12,12 @@ about:
     - icon: github
       text: Github
       href: https://github.com/cilantro-licorice
-listing:
-  contents: posts
-  type: default
-  sort: "date desc"
-  max-items: 5
-  fields: [title, description, date]
+#listing:
+#  contents: posts
+#  type: default
+#  sort: "date desc"
+#  max-items: 5
+#  fields: [title, description, date]
 ---
 
 Hi, my name is Matija Pušnik. I am a philosopher and debate educator. :) Lorem ipsum, etc. etc. Tralala, testing testing, whooo, leroooy jenkinHi, my name is Matija Pušnik. I am a philosopher and debate educator. :) Lorem ipsum, etc. etc. Tralala, testing testing, whooo, leroooy jenkins
