@@ -2,8 +2,9 @@ project:
   type: website
 
 website:
-  title: false
+  title: "Matija Pušnik"
   navbar:
+    title: false
     left:
       - href: index.qmd
         text: "Home"
