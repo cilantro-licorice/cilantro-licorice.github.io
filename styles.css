@@ -88,5 +88,5 @@
 .about-image,
 img.about-image,
 .rounded-circle {
-  border-radius: 32px !important;
+  border-radius: 50% !important;
 }
