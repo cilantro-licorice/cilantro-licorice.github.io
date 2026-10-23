@@ -78,7 +78,7 @@
 }
 
 .navbar-brand {
-    font-size: --bs-body-font-size  !important;
+    font-size: --bs-navbar-font-size  !important;
     font-weight: 400 !important;
     color: var(--bs-navbar-color) !important;
 }
