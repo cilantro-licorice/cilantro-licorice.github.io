@@ -4,6 +4,6 @@ author: "Matija Pušnik"
 date: 2026-10-21
 categories: [Life updates, PhD]
 description: "The first post had to be something. To be fair it is not terribly interesting."
- 
----
+ ---
+## Heya!
 I have opened this page, because I often find myself compiling work I have done, which is sometimes complicated because it is scattered around several different platforms and formats. Furthermore, I have a virtual drawer full of semi-developed ideas, and having an obscure digital garden like this allows me to develop them. 
