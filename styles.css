@@ -111,7 +111,76 @@ img.about-image,
   min-height: 0 !important;
   margin-bottom: 1.2rem !important;
   padding: 0.75rem !important;
-  background-color: #f8f9fa !important;
+  background-color: #f2f2eb !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* 2. Popolnoma skrij prazen prostor za sliko/thumbnail, ker je ne rabiš */
+.quarto-post .thumbnail {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 3. Posoda za besedilo in metadata naj sledita normalnemu toku */
+.quarto-post .body,
+.quarto-post .metadata {
+  display: block !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  width: 100% !important;
+}
+
+/* 4. Datum tik pod opisom */
+.quarto-post .metadata {
+  margin-top: 0.3rem !important;
+}
+
+/* 5. Tipografija in poravnava */
+.quarto-post .listing-title,
+.quarto-post .listing-title a {
+  font-family: "Atkinson Hyperlegible", sans-serif !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+  display: block !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.quarto-post .listing-description {
+  font-family: "Atkinson Hyperlegible", sans-serif !important;
+  font-size: 0.8rem !important;
+  text-align: justify !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.quarto-post .listing-date {
+  font-family: "Atkinson Hyperlegible", sans-serif !important;
+  color: #6c757d !important;
+  font-size: 0.8rem !important;
+  text-align: left !important;
+}
+
+/* 6. Skrij avtorja */
+.quarto-post .listing-author {
+  display: none !important;
+}
+
+/* 1. Preoblikuj posamezen post v navaden blok (uniči Bootstrap grid stolpce) */
+.quarto-post {
+  display: block !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin-bottom: 1.2rem !important;
+  padding: 0.75rem !important;
+  background-color: #f2f2eb !important;
   border: 1px solid rgba(0, 0, 0, 0.05) !important;
   border-radius: 8px !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
