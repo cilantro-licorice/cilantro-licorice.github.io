@@ -3,6 +3,8 @@ title: "Kicking off Doctoral Research in Education"
 author: "Matija Pušnik"
 date: 2026-10-21
 categories: [Life updates, PhD]
+description: "The first post had to be something. To be fair it is not terribly interesting."
+ 
 ---
 
 ## Hello world
