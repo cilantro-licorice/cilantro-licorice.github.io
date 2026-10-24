@@ -23,6 +23,8 @@
   width: 100% !important;
   max-width: 100% !important;
   box-sizing: border-box !important;
+  height: auto !important;
+  min-height: 0 !important;
 }
 
 /* 2. Remove bottom margins from the text container */
