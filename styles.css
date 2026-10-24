@@ -27,6 +27,17 @@
   min-height: 0 !important;
 }
 
+/* 2. Onemogoči Bootstrapov flex-grow na notranjih kontejnerjih */
+.quarto-listing-default .quarto-post .body,
+.quarto-listing-default .quarto-post .thumbnail,
+.quarto-listing-default .quarto-post .metadata {
+  flex: 0 0 auto !important; /* Prepreči, da bi karkoli "porivalo" dno navzdol */
+  height: auto !important;
+  min-height: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 /* 2. Remove bottom margins from the text container */
 .quarto-listing-default .quarto-post .body {
   order: 1 !important;
