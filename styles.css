@@ -1,246 +1,4 @@
-#listing-listing,
-.quarto-listing,
-.quarto-listing-default {
-  width: 100% !important;
-  max-width: 100% !important;
-}
-
-
-/* 1. Set Flexbox layout so 'order' works */
-.quarto-listing-default .quarto-post {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: flex-start !important;
-  align-items: stretch !important;
-  gap: 0 !important;
-  margin-bottom: 10 rem !important; /* Space between different posts */
-  padding-bottom: 0 !important;
-  background-color: #ffffff !important;
-  border: 0.75px solid rgba(0, 0, 0, 0.2) !important;
-  border-radius: 8px !important;
-  padding: 0.5rem !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  box-sizing: border-box !important;
-  height: auto !important;
-  min-height: 0 !important;
-}
-
-/* 2. Onemogoči Bootstrapov flex-grow na notranjih kontejnerjih */
-.quarto-listing-default .quarto-post .body,
-.quarto-listing-default .quarto-post .thumbnail,
-.quarto-listing-default .quarto-post .metadata {
-  flex: 0 0 auto !important; /* Prepreči, da bi karkoli "porivalo" dno navzdol */
-  height: auto !important;
-  min-height: 0 !important;
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-/* 2. Remove bottom margins from the text container */
-.quarto-listing-default .quarto-post .body {
-  order: 1 !important;
-  width: 100% !important;
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-/* 3. Pull date immediately underneath the description */
-.quarto-listing-default .quarto-post .metadata {
-  order: 2 !important;
-  width: 100% !important;
-  margin-top: 0.1rem !important; /* Tight gap above date */
-  padding-top: 0 !important;
-}
-
-/* 4. Font Family Override */
-.quarto-listing-default .listing-title,
-.quarto-listing-default .listing-title a,
-.quarto-listing-default .listing-description,
-.quarto-listing-default .listing-date {
-  font-family: "Atkinson Hyperlegible" !important;
-}
-
-/* 5. TITLE: Smaller font size & bold */
-.quarto-listing-default .listing-title,
-.quarto-listing-default .listing-title a {
-  font-size: 1rem !important; /* Adjust if you want it smaller/larger */
-  font-weight: 700 !important;
-  text-align: left !important;
-  display: block !important;
-  margin-bottom: 0.3rem !important;
-}
-
-/* 6. DESCRIPTION: Justified text */
-.quarto-listing-default .listing-description {
-  display: block !important;
-  font-size: 0.8rem !important;
-  text-align: justify !important;
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-/* 7. DATE: Small, grayish, aligned left right under description */
-.quarto-listing-default .listing-date {
-  display: block !important;
-  color: #6c757d !important;
-  font-size: 0.8rem !important;
-  text-align: left !important;
-  margin-top: 0 !important;
-}
-
-.navbar-brand {
-    font-size: var(--bs-nav-link-font-size)  !important;
-    font-weight: 700 !important;
-    color: var(--bs-navbar-color) !important;
-    pointer-events: none !important;
-    cursor: default !important;
-}
-
-.about-image,
-img.about-image,
-.rounded-circle {
-  border-radius: 20% !important;
-}
-
-/* 1. Preoblikuj posamezen post v navaden blok (uniči Bootstrap grid stolpce) */
-.quarto-post {
-  display: block !important;
-  height: auto !important;
-  min-height: 0 !important;
-  padding: 0.75rem !important;
-  background-color: #f2f2eb !important;
-  border: 1px solid rgba(0, 0, 0, 0.05) !important;
-  border-radius: 8px !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
-  width: 100% !important;
-  box-sizing: border-box !important;
-}
-
-/* 2. Popolnoma skrij prazen prostor za sliko/thumbnail, ker je ne rabiš */
-.quarto-post .thumbnail {
-  display: none !important;
-  height: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* 3. Posoda za besedilo in metadata naj sledita normalnemu toku */
-.quarto-post .body,
-.quarto-post .metadata {
-  display: block !important;
-  height: auto !important;
-  min-height: 0 !important;
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-  width: 100% !important;
-}
-
-/* 4. Datum tik pod opisom */
-.quarto-post .metadata {
-  margin-top: 0.3rem !important;
-}
-
-/* 5. Tipografija in poravnava */
-.quarto-post .listing-title,
-.quarto-post .listing-title a {
-  font-family: "Atkinson Hyperlegible", sans-serif !important;
-  font-size: 1rem !important;
-  font-weight: 700 !important;
-  text-align: left !important;
-  display: block !important;
-  margin-bottom: 0.3rem !important;
-}
-
-.quarto-post .listing-description {
-  font-family: "Atkinson Hyperlegible", sans-serif !important;
-  font-size: 0.8rem !important;
-  text-align: justify !important;
-  margin-bottom: 0.3rem !important;
-}
-
-.quarto-post .listing-date {
-  font-family: "Atkinson Hyperlegible", sans-serif !important;
-  color: #6c757d !important;
-  font-size: 0.8rem !important;
-  text-align: left !important;
-}
-
-/* 6. Skrij avtorja */
-.quarto-post .listing-author {
-  display: none !important;
-}
-
-/* 1. Preoblikuj posamezen post v navaden blok (uniči Bootstrap grid stolpce) */
-.quarto-post {
-  display: block !important;
-  height: auto !important;
-  min-height: 0 !important;
-  margin-bottom: 0 rem !important;
-  padding: 0.75rem !important;
-  background-color: #ffffff !important;
-  border: 1px solid rgba(0, 0, 0, 0.05) !important;
-  border-radius: 8px !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
-  width: 100% !important;
-  box-sizing: border-box !important;
-}
-
-/* 2. Popolnoma skrij prazen prostor za sliko/thumbnail, ker je ne rabiš */
-.quarto-post .thumbnail {
-  display: none !important;
-  height: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* 3. Posoda za besedilo in metadata naj sledita normalnemu toku */
-.quarto-post .body,
-.quarto-post .metadata {
-  display: block !important;
-  height: auto !important;
-  min-height: 0 !important;
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-  width: 100% !important;
-}
-
-/* 4. Datum tik pod opisom */
-.quarto-post .metadata {
-  margin-top: 0.3rem !important;
-}
-
-/* 5. Tipografija in poravnava */
-.quarto-post .listing-title,
-.quarto-post .listing-title a {
-  font-family: "Atkinson Hyperlegible", sans-serif !important;
-  font-size: 1rem !important;
-  font-weight: 700 !important;
-  text-align: left !important;
-  display: block !important;
-  margin-bottom: 0.3rem !important;
-}
-
-.quarto-post .listing-description {
-  font-family: "Atkinson Hyperlegible", sans-serif !important;
-  font-size: 0.8rem !important;
-  text-align: justify !important;
-  margin-bottom: 0.3rem !important;
-}
-
-.quarto-post .listing-date {
-  font-family: "Atkinson Hyperlegible", sans-serif !important;
-  color: #6c757d !important;
-  font-size: 0.8rem !important;
-  text-align: left !important;
-}
-
-/* 6. Skrij avtorja */
-.quarto-post .listing-author {
-  display: none !important;
-}
-
+/* --- 1. GLOBALNA TIPOGRAFIJA --- */
 body,
 p,
 h1, h2, h3, h4, h5, h6,
@@ -252,4 +10,94 @@ h1, h2, h3, h4, h5, h6,
 .category,
 .quarto-post {
   font-family: "Atkinson Hyperlegible", sans-serif !important;
+}
+
+/* --- 2. OSNOVNI OKVIR SEZNAMA --- */
+#listing-listing,
+.quarto-listing,
+.quarto-listing-default {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* --- 3. POSAMEZNA KARTICA (POST) --- */
+.quarto-post {
+  display: block !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin-bottom: 0.6rem !important; /* <--- TUKAJ urejaš razmik med karticami! */
+  padding: 0.75rem !important;
+  background-color: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03) !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Odstranitev praznega prostora za sliko */
+.quarto-post .thumbnail {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Notranji elementi sledijo normalnemu toku */
+.quarto-post .body,
+.quarto-post .metadata {
+  display: block !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  width: 100% !important;
+}
+
+/* Datum tik pod opisom */
+.quarto-post .metadata {
+  margin-top: 0.3rem !important;
+}
+
+/* --- 4. TIPOGRAFIJA ZNOTRAJ KARTICE --- */
+.quarto-post .listing-title,
+.quarto-post .listing-title a {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+  display: block !important;
+  margin-bottom: 0.3rem !important;
+  text-decoration: none !important;
+}
+
+.quarto-post .listing-description {
+  font-size: 0.8rem !important;
+  text-align: justify !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.quarto-post .listing-date {
+  color: #6c757d !important;
+  font-size: 0.8rem !important;
+  text-align: left !important;
+}
+
+/* Skrij avtorja */
+.quarto-post .listing-author {
+  display: none !important;
+}
+
+/* --- 5. OSTALI ELEMENTI SPLETNE STRANI --- */
+.navbar-brand {
+  font-size: var(--bs-nav-link-font-size) !important;
+  font-weight: 700 !important;
+  color: var(--bs-navbar-color) !important;
+  pointer-events: none !important;
+  cursor: default !important;
+}
+
+.about-image,
+img.about-image,
+.rounded-circle {
+  border-radius: 20% !important;
 }
