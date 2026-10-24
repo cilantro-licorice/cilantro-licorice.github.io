@@ -1,5 +1,5 @@
 ---
-title: "Hello world!"
+title: "Hello World!"
 author: "Matija Pušnik"
 date: 2026-10-21
 categories: [Life updates, PhD]
