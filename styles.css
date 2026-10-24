@@ -241,3 +241,16 @@ img.about-image,
 .quarto-post .listing-author {
   display: none !important;
 }
+
+body,
+p,
+h1, h2, h3, h4, h5, h6,
+.navbar,
+.navbar-brand,
+.nav-link,
+.sidebar,
+.quarto-listing-category-title,
+.category,
+.quarto-post {
+  font-family: "Atkinson Hyperlegible", sans-serif !important;
+}
