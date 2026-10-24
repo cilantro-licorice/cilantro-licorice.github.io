@@ -13,7 +13,7 @@
   justify-content: flex-start !important;
   align-items: stretch !important;
   gap: 0 !important;
-  margin-bottom: 1 rem !important; /* Space between different posts */
+  margin-bottom: 0.5 rem !important; /* Space between different posts */
   padding-bottom: 0 !important;
   background-color: #ffffff !important;
   border: 0.75px solid rgba(0, 0, 0, 0.2) !important;
