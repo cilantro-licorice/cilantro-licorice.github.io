@@ -14,7 +14,7 @@ about:
       href: https://github.com/cilantro-licorice
     - icon: substack
       text: Substack
-      href: lalala
+      href: https://matijapusnik.substack.com
     - icon: rss
       text: RSS feed
     - icon: envelope-at-fill
